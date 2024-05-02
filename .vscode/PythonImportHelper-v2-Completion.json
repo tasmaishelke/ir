@@ -1,0 +1,919 @@
+[
+    {
+        "label": "TfidfVectorizer",
+        "importPath": "sklearn.feature_extraction.text",
+        "description": "sklearn.feature_extraction.text",
+        "isExtraImport": true,
+        "detail": "sklearn.feature_extraction.text",
+        "documentation": {}
+    },
+    {
+        "label": "TfidfVectorizer",
+        "importPath": "sklearn.feature_extraction.text",
+        "description": "sklearn.feature_extraction.text",
+        "isExtraImport": true,
+        "detail": "sklearn.feature_extraction.text",
+        "documentation": {}
+    },
+    {
+        "label": "CountVectorizer",
+        "importPath": "sklearn.feature_extraction.text",
+        "description": "sklearn.feature_extraction.text",
+        "isExtraImport": true,
+        "detail": "sklearn.feature_extraction.text",
+        "documentation": {}
+    },
+    {
+        "label": "TfidfVectorizer",
+        "importPath": "sklearn.feature_extraction.text",
+        "description": "sklearn.feature_extraction.text",
+        "isExtraImport": true,
+        "detail": "sklearn.feature_extraction.text",
+        "documentation": {}
+    },
+    {
+        "label": "stopwords",
+        "importPath": "nltk.corpus",
+        "description": "nltk.corpus",
+        "isExtraImport": true,
+        "detail": "nltk.corpus",
+        "documentation": {}
+    },
+    {
+        "label": "stopwords",
+        "importPath": "nltk.corpus",
+        "description": "nltk.corpus",
+        "isExtraImport": true,
+        "detail": "nltk.corpus",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "KMeans",
+        "importPath": "sklearn.cluster",
+        "description": "sklearn.cluster",
+        "isExtraImport": true,
+        "detail": "sklearn.cluster",
+        "documentation": {}
+    },
+    {
+        "label": "nltk",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "nltk",
+        "description": "nltk",
+        "detail": "nltk",
+        "documentation": {}
+    },
+    {
+        "label": "average_precision_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "classification_report",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "svm",
+        "importPath": "sklearn",
+        "description": "sklearn",
+        "isExtraImport": true,
+        "detail": "sklearn",
+        "documentation": {}
+    },
+    {
+        "label": "model_selection",
+        "importPath": "sklearn",
+        "description": "sklearn",
+        "isExtraImport": true,
+        "detail": "sklearn",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "MultinomialNB",
+        "importPath": "sklearn.naive_bayes",
+        "description": "sklearn.naive_bayes",
+        "isExtraImport": true,
+        "detail": "sklearn.naive_bayes",
+        "documentation": {}
+    },
+    {
+        "label": "cosine_similarity",
+        "importPath": "sklearn.metrics.pairwise",
+        "description": "sklearn.metrics.pairwise",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics.pairwise",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "urljoin",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "urlparse",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "RobotFileParser",
+        "importPath": "urllib.robotparser",
+        "description": "urllib.robotparser",
+        "isExtraImport": true,
+        "detail": "urllib.robotparser",
+        "documentation": {}
+    },
+    {
+        "label": "create_inverted_index",
+        "kind": 2,
+        "importPath": "boolean_prac2",
+        "description": "boolean_prac2",
+        "peekOfCode": "def create_inverted_index(documents):\n    inverted_index = {}\n    for doc_id, doc_text in documents.items():\n        for term in doc_text.split():\n            term = term.lower()\n            inverted_index.setdefault(term, set()).add(doc_id)\n    return inverted_index\ninverted_index = create_inverted_index(documents)\ndef boolean_and(operands, index):\n  result = set(index.get(operands[0], set()))",
+        "detail": "boolean_prac2",
+        "documentation": {}
+    },
+    {
+        "label": "boolean_and",
+        "kind": 2,
+        "importPath": "boolean_prac2",
+        "description": "boolean_prac2",
+        "peekOfCode": "def boolean_and(operands, index):\n  result = set(index.get(operands[0], set()))\n  for term in operands[1:]:\n    result = result.intersection(index.get(term, set()))\n  return list(result)\ndef boolean_or(operands, index):\n  result = set()\n  for term in operands:\n    result.update(index.get(term, set()))\n  return list(result)",
+        "detail": "boolean_prac2",
+        "documentation": {}
+    },
+    {
+        "label": "boolean_or",
+        "kind": 2,
+        "importPath": "boolean_prac2",
+        "description": "boolean_prac2",
+        "peekOfCode": "def boolean_or(operands, index):\n  result = set()\n  for term in operands:\n    result.update(index.get(term, set()))\n  return list(result)\ndef boolean_not(term, index, num_documents):\n  all_docs = set(range(1, num_documents + 1))  # Create set of all document IDs (1 to num_documents)\n  return list(all_docs - index.get(term, set()))  # Remove documents containing the term\n#Example queries\nqueryl = [\"apple\", \"banana\"]",
+        "detail": "boolean_prac2",
+        "documentation": {}
+    },
+    {
+        "label": "boolean_not",
+        "kind": 2,
+        "importPath": "boolean_prac2",
+        "description": "boolean_prac2",
+        "peekOfCode": "def boolean_not(term, index, num_documents):\n  all_docs = set(range(1, num_documents + 1))  # Create set of all document IDs (1 to num_documents)\n  return list(all_docs - index.get(term, set()))  # Remove documents containing the term\n#Example queries\nqueryl = [\"apple\", \"banana\"]\nquery2 = [\"apple\", \"orange\"]\n#Performing Boolean model queries\nresult1 = boolean_and(queryl, inverted_index)\nresult2 = boolean_or(query2, inverted_index)\nresult3 = boolean_not(\"orange\", inverted_index, len(documents))",
+        "detail": "boolean_prac2",
+        "documentation": {}
+    },
+    {
+        "label": "documents",
+        "kind": 5,
+        "importPath": "boolean_prac2",
+        "description": "boolean_prac2",
+        "peekOfCode": "documents = {\n    1: \"apple banana orange\",\n    2: \"apple banana\",\n    3: \"banana orange\",\n    4: \"apple\",\n    5: \"apple orange\"\n}\ndef create_inverted_index(documents):\n    inverted_index = {}\n    for doc_id, doc_text in documents.items():",
+        "detail": "boolean_prac2",
+        "documentation": {}
+    },
+    {
+        "label": "inverted_index",
+        "kind": 5,
+        "importPath": "boolean_prac2",
+        "description": "boolean_prac2",
+        "peekOfCode": "inverted_index = create_inverted_index(documents)\ndef boolean_and(operands, index):\n  result = set(index.get(operands[0], set()))\n  for term in operands[1:]:\n    result = result.intersection(index.get(term, set()))\n  return list(result)\ndef boolean_or(operands, index):\n  result = set()\n  for term in operands:\n    result.update(index.get(term, set()))",
+        "detail": "boolean_prac2",
+        "documentation": {}
+    },
+    {
+        "label": "queryl",
+        "kind": 5,
+        "importPath": "boolean_prac2",
+        "description": "boolean_prac2",
+        "peekOfCode": "queryl = [\"apple\", \"banana\"]\nquery2 = [\"apple\", \"orange\"]\n#Performing Boolean model queries\nresult1 = boolean_and(queryl, inverted_index)\nresult2 = boolean_or(query2, inverted_index)\nresult3 = boolean_not(\"orange\", inverted_index, len(documents))\nprint(inverted_index)\n# Printing results\nprint(\"documents containing 'apple' and 'banana': \", result1)\nprint(\"Documents containing 'apple' or 'orange': \", result2)",
+        "detail": "boolean_prac2",
+        "documentation": {}
+    },
+    {
+        "label": "query2",
+        "kind": 5,
+        "importPath": "boolean_prac2",
+        "description": "boolean_prac2",
+        "peekOfCode": "query2 = [\"apple\", \"orange\"]\n#Performing Boolean model queries\nresult1 = boolean_and(queryl, inverted_index)\nresult2 = boolean_or(query2, inverted_index)\nresult3 = boolean_not(\"orange\", inverted_index, len(documents))\nprint(inverted_index)\n# Printing results\nprint(\"documents containing 'apple' and 'banana': \", result1)\nprint(\"Documents containing 'apple' or 'orange': \", result2)\nprint(\"Documents not containing 'orange': \", result3)",
+        "detail": "boolean_prac2",
+        "documentation": {}
+    },
+    {
+        "label": "result1",
+        "kind": 5,
+        "importPath": "boolean_prac2",
+        "description": "boolean_prac2",
+        "peekOfCode": "result1 = boolean_and(queryl, inverted_index)\nresult2 = boolean_or(query2, inverted_index)\nresult3 = boolean_not(\"orange\", inverted_index, len(documents))\nprint(inverted_index)\n# Printing results\nprint(\"documents containing 'apple' and 'banana': \", result1)\nprint(\"Documents containing 'apple' or 'orange': \", result2)\nprint(\"Documents not containing 'orange': \", result3)\n# Simple Code\nfrom sklearn.feature_extraction.text import TfidfVectorizer",
+        "detail": "boolean_prac2",
+        "documentation": {}
+    },
+    {
+        "label": "result2",
+        "kind": 5,
+        "importPath": "boolean_prac2",
+        "description": "boolean_prac2",
+        "peekOfCode": "result2 = boolean_or(query2, inverted_index)\nresult3 = boolean_not(\"orange\", inverted_index, len(documents))\nprint(inverted_index)\n# Printing results\nprint(\"documents containing 'apple' and 'banana': \", result1)\nprint(\"Documents containing 'apple' or 'orange': \", result2)\nprint(\"Documents not containing 'orange': \", result3)\n# Simple Code\nfrom sklearn.feature_extraction.text import TfidfVectorizer\nfrom nltk.corpus import stopwords",
+        "detail": "boolean_prac2",
+        "documentation": {}
+    },
+    {
+        "label": "result3",
+        "kind": 5,
+        "importPath": "boolean_prac2",
+        "description": "boolean_prac2",
+        "peekOfCode": "result3 = boolean_not(\"orange\", inverted_index, len(documents))\nprint(inverted_index)\n# Printing results\nprint(\"documents containing 'apple' and 'banana': \", result1)\nprint(\"Documents containing 'apple' or 'orange': \", result2)\nprint(\"Documents not containing 'orange': \", result3)\n# Simple Code\nfrom sklearn.feature_extraction.text import TfidfVectorizer\nfrom nltk.corpus import stopwords\nimport numpy as np",
+        "detail": "boolean_prac2",
+        "documentation": {}
+    },
+    {
+        "label": "train_set",
+        "kind": 5,
+        "importPath": "boolean_prac2",
+        "description": "boolean_prac2",
+        "peekOfCode": "train_set = [\"The sky is blue.\", \"The sun is bright.\"]\ntest_set = [\"The sun in the sky is bright.\"]\nstopWords = stopwords.words('english')\n# use TFidfVectoriser for tokenization, stop word removal and TF-IDF transform\nvectorizer = TfidfVectorizer(stop_words=stopWords)\n# create document-term matrices in one step for train and test sets\ntrain_matrix = vectorizer.fit_transform(train_set)\ntest_matrix = vectorizer.transform(test_set)\nprint(train_matrix)\nprint(test_matrix)",
+        "detail": "boolean_prac2",
+        "documentation": {}
+    },
+    {
+        "label": "test_set",
+        "kind": 5,
+        "importPath": "boolean_prac2",
+        "description": "boolean_prac2",
+        "peekOfCode": "test_set = [\"The sun in the sky is bright.\"]\nstopWords = stopwords.words('english')\n# use TFidfVectoriser for tokenization, stop word removal and TF-IDF transform\nvectorizer = TfidfVectorizer(stop_words=stopWords)\n# create document-term matrices in one step for train and test sets\ntrain_matrix = vectorizer.fit_transform(train_set)\ntest_matrix = vectorizer.transform(test_set)\nprint(train_matrix)\nprint(test_matrix)\n# Calculate cosine similarity for each document in the test set against all documents",
+        "detail": "boolean_prac2",
+        "documentation": {}
+    },
+    {
+        "label": "stopWords",
+        "kind": 5,
+        "importPath": "boolean_prac2",
+        "description": "boolean_prac2",
+        "peekOfCode": "stopWords = stopwords.words('english')\n# use TFidfVectoriser for tokenization, stop word removal and TF-IDF transform\nvectorizer = TfidfVectorizer(stop_words=stopWords)\n# create document-term matrices in one step for train and test sets\ntrain_matrix = vectorizer.fit_transform(train_set)\ntest_matrix = vectorizer.transform(test_set)\nprint(train_matrix)\nprint(test_matrix)\n# Calculate cosine similarity for each document in the test set against all documents\nfor test_vector in test_matrix.toarray():",
+        "detail": "boolean_prac2",
+        "documentation": {}
+    },
+    {
+        "label": "vectorizer",
+        "kind": 5,
+        "importPath": "boolean_prac2",
+        "description": "boolean_prac2",
+        "peekOfCode": "vectorizer = TfidfVectorizer(stop_words=stopWords)\n# create document-term matrices in one step for train and test sets\ntrain_matrix = vectorizer.fit_transform(train_set)\ntest_matrix = vectorizer.transform(test_set)\nprint(train_matrix)\nprint(test_matrix)\n# Calculate cosine similarity for each document in the test set against all documents\nfor test_vector in test_matrix.toarray():\n  for train_vector in train_matrix.toarray():\n    cosine_similarity = np.dot(test_vector, train_vector) / (np.linalg.norm(test_vector) * np.linalg.norm(train_vector))",
+        "detail": "boolean_prac2",
+        "documentation": {}
+    },
+    {
+        "label": "train_matrix",
+        "kind": 5,
+        "importPath": "boolean_prac2",
+        "description": "boolean_prac2",
+        "peekOfCode": "train_matrix = vectorizer.fit_transform(train_set)\ntest_matrix = vectorizer.transform(test_set)\nprint(train_matrix)\nprint(test_matrix)\n# Calculate cosine similarity for each document in the test set against all documents\nfor test_vector in test_matrix.toarray():\n  for train_vector in train_matrix.toarray():\n    cosine_similarity = np.dot(test_vector, train_vector) / (np.linalg.norm(test_vector) * np.linalg.norm(train_vector))\n    print(f\"Cosine similarity between test document and train document: {cosine_similarity:.3f}\")",
+        "detail": "boolean_prac2",
+        "documentation": {}
+    },
+    {
+        "label": "test_matrix",
+        "kind": 5,
+        "importPath": "boolean_prac2",
+        "description": "boolean_prac2",
+        "peekOfCode": "test_matrix = vectorizer.transform(test_set)\nprint(train_matrix)\nprint(test_matrix)\n# Calculate cosine similarity for each document in the test set against all documents\nfor test_vector in test_matrix.toarray():\n  for train_vector in train_matrix.toarray():\n    cosine_similarity = np.dot(test_vector, train_vector) / (np.linalg.norm(test_vector) * np.linalg.norm(train_vector))\n    print(f\"Cosine similarity between test document and train document: {cosine_similarity:.3f}\")",
+        "detail": "boolean_prac2",
+        "documentation": {}
+    },
+    {
+        "label": "documents",
+        "kind": 5,
+        "importPath": "clustering_prac6",
+        "description": "clustering_prac6",
+        "peekOfCode": "documents = ['Cats are known for their agility and grace.',#cat\n             'Dogs are often called mans best friend.',#dog\n             'Some dogs are trained to assist people with disabilities',#dog\n             'The sun rises in the east and sets in the west',#sun\n             'Many cats enjoy climbing trees and chasing toys',#cat\n]\n#Create a TfidfVectorizer object\nvectorizer = TfidfVectorizer(stop_words='english')\n#Learn vocabulary and idf from training set.\nX = vectorizer.fit_transform(documents)",
+        "detail": "clustering_prac6",
+        "documentation": {}
+    },
+    {
+        "label": "vectorizer",
+        "kind": 5,
+        "importPath": "clustering_prac6",
+        "description": "clustering_prac6",
+        "peekOfCode": "vectorizer = TfidfVectorizer(stop_words='english')\n#Learn vocabulary and idf from training set.\nX = vectorizer.fit_transform(documents)\n#Perform k-means clusteering\nkmeans = KMeans(n_clusters=3,random_state=0).fit(X)\n#Print cluster labels for each document\nprint(kmeans.labels_)",
+        "detail": "clustering_prac6",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "clustering_prac6",
+        "description": "clustering_prac6",
+        "peekOfCode": "X = vectorizer.fit_transform(documents)\n#Perform k-means clusteering\nkmeans = KMeans(n_clusters=3,random_state=0).fit(X)\n#Print cluster labels for each document\nprint(kmeans.labels_)",
+        "detail": "clustering_prac6",
+        "documentation": {}
+    },
+    {
+        "label": "kmeans",
+        "kind": 5,
+        "importPath": "clustering_prac6",
+        "description": "clustering_prac6",
+        "peekOfCode": "kmeans = KMeans(n_clusters=3,random_state=0).fit(X)\n#Print cluster labels for each document\nprint(kmeans.labels_)",
+        "detail": "clustering_prac6",
+        "documentation": {}
+    },
+    {
+        "label": "stopWords",
+        "kind": 5,
+        "importPath": "indexing_prac1",
+        "description": "indexing_prac1",
+        "peekOfCode": "stopWords = stopwords.words('english')\nprint(stopWords)\ndocument1 = \"The quick brown fox jumped over the lazy dog.\"\ndocument2 = \"The lazy dog slept in the sun.\"\ntokens1 = document1.lower().split()\ntokens2 = document2.lower().split()\nterms = list(set(tokens1 + tokens2))\nprint(tokens1)\nprint(tokens2)\nprint(terms)",
+        "detail": "indexing_prac1",
+        "documentation": {}
+    },
+    {
+        "label": "document1",
+        "kind": 5,
+        "importPath": "indexing_prac1",
+        "description": "indexing_prac1",
+        "peekOfCode": "document1 = \"The quick brown fox jumped over the lazy dog.\"\ndocument2 = \"The lazy dog slept in the sun.\"\ntokens1 = document1.lower().split()\ntokens2 = document2.lower().split()\nterms = list(set(tokens1 + tokens2))\nprint(tokens1)\nprint(tokens2)\nprint(terms)\ninverted_index = {}\nocc_num_doc1 = {}",
+        "detail": "indexing_prac1",
+        "documentation": {}
+    },
+    {
+        "label": "document2",
+        "kind": 5,
+        "importPath": "indexing_prac1",
+        "description": "indexing_prac1",
+        "peekOfCode": "document2 = \"The lazy dog slept in the sun.\"\ntokens1 = document1.lower().split()\ntokens2 = document2.lower().split()\nterms = list(set(tokens1 + tokens2))\nprint(tokens1)\nprint(tokens2)\nprint(terms)\ninverted_index = {}\nocc_num_doc1 = {}\nocc_num_doc2 = {}",
+        "detail": "indexing_prac1",
+        "documentation": {}
+    },
+    {
+        "label": "tokens1",
+        "kind": 5,
+        "importPath": "indexing_prac1",
+        "description": "indexing_prac1",
+        "peekOfCode": "tokens1 = document1.lower().split()\ntokens2 = document2.lower().split()\nterms = list(set(tokens1 + tokens2))\nprint(tokens1)\nprint(tokens2)\nprint(terms)\ninverted_index = {}\nocc_num_doc1 = {}\nocc_num_doc2 = {}\nfor term in terms:",
+        "detail": "indexing_prac1",
+        "documentation": {}
+    },
+    {
+        "label": "tokens2",
+        "kind": 5,
+        "importPath": "indexing_prac1",
+        "description": "indexing_prac1",
+        "peekOfCode": "tokens2 = document2.lower().split()\nterms = list(set(tokens1 + tokens2))\nprint(tokens1)\nprint(tokens2)\nprint(terms)\ninverted_index = {}\nocc_num_doc1 = {}\nocc_num_doc2 = {}\nfor term in terms:\n    if term in stopWords:",
+        "detail": "indexing_prac1",
+        "documentation": {}
+    },
+    {
+        "label": "terms",
+        "kind": 5,
+        "importPath": "indexing_prac1",
+        "description": "indexing_prac1",
+        "peekOfCode": "terms = list(set(tokens1 + tokens2))\nprint(tokens1)\nprint(tokens2)\nprint(terms)\ninverted_index = {}\nocc_num_doc1 = {}\nocc_num_doc2 = {}\nfor term in terms:\n    if term in stopWords:\n        continue",
+        "detail": "indexing_prac1",
+        "documentation": {}
+    },
+    {
+        "label": "inverted_index",
+        "kind": 5,
+        "importPath": "indexing_prac1",
+        "description": "indexing_prac1",
+        "peekOfCode": "inverted_index = {}\nocc_num_doc1 = {}\nocc_num_doc2 = {}\nfor term in terms:\n    if term in stopWords:\n        continue\n    if term in tokens1:\n        occ_num_doc1[term] = tokens1.count(term)\n    if term in tokens2:\n        occ_num_doc2[term] = tokens2.count(term)",
+        "detail": "indexing_prac1",
+        "documentation": {}
+    },
+    {
+        "label": "occ_num_doc1",
+        "kind": 5,
+        "importPath": "indexing_prac1",
+        "description": "indexing_prac1",
+        "peekOfCode": "occ_num_doc1 = {}\nocc_num_doc2 = {}\nfor term in terms:\n    if term in stopWords:\n        continue\n    if term in tokens1:\n        occ_num_doc1[term] = tokens1.count(term)\n    if term in tokens2:\n        occ_num_doc2[term] = tokens2.count(term)\nprint(occ_num_doc1)",
+        "detail": "indexing_prac1",
+        "documentation": {}
+    },
+    {
+        "label": "occ_num_doc2",
+        "kind": 5,
+        "importPath": "indexing_prac1",
+        "description": "indexing_prac1",
+        "peekOfCode": "occ_num_doc2 = {}\nfor term in terms:\n    if term in stopWords:\n        continue\n    if term in tokens1:\n        occ_num_doc1[term] = tokens1.count(term)\n    if term in tokens2:\n        occ_num_doc2[term] = tokens2.count(term)\nprint(occ_num_doc1)\nprint(occ_num_doc2)",
+        "detail": "indexing_prac1",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_metrics",
+        "kind": 2,
+        "importPath": "metriics_prac4",
+        "description": "metriics_prac4",
+        "peekOfCode": "def calculate_metrics(retrieved_set, relevant_set):\n  true_positive = len(retrieved_set.intersection(relevant_set))\n  false_positive = len(retrieved_set.difference(relevant_set))\n  false_negative = len(relevant_set.difference(retrieved_set))\n  print(\"True Positive: \", true_positive, \"\\nFalse Positive: \", false_positive, \"\\nFalse Negative: \", false_negative, \"\\n\")\n  precision = true_positive / (true_positive + false_positive)\n  recall = true_positive / (true_positive + false_negative)\n  f_measure = 2 * precision * recall / (precision + recall)\n  return precision, recall, f_measure\nretrieved_set = set([\"doc1\", \"doc2\", \"doc3\"])  #predicted set",
+        "detail": "metriics_prac4",
+        "documentation": {}
+    },
+    {
+        "label": "retrieved_set",
+        "kind": 5,
+        "importPath": "metriics_prac4",
+        "description": "metriics_prac4",
+        "peekOfCode": "retrieved_set = set([\"doc1\", \"doc2\", \"doc3\"])  #predicted set\nrelevant_set = set([\"doc1\", \"doc4\"])           #actually needed set (relevant)\nprecision, recall, f_measure = calculate_metrics(retrieved_set, relevant_set)\nprint(f\"Precision: {precision}\")\nprint(f\"Recall: {recall}\")\nprint(f\"F-measure: {f_measure}\")\n# B) Average precision\nfrom sklearn.metrics import average_precision_score\ny_true = [0, 1, 1, 0, 1, 1]   #binary prediction\ny_scores = [0.1, 0.4, 0.35, 0.8, 0.65, 0.9]   #model's estimation score",
+        "detail": "metriics_prac4",
+        "documentation": {}
+    },
+    {
+        "label": "relevant_set",
+        "kind": 5,
+        "importPath": "metriics_prac4",
+        "description": "metriics_prac4",
+        "peekOfCode": "relevant_set = set([\"doc1\", \"doc4\"])           #actually needed set (relevant)\nprecision, recall, f_measure = calculate_metrics(retrieved_set, relevant_set)\nprint(f\"Precision: {precision}\")\nprint(f\"Recall: {recall}\")\nprint(f\"F-measure: {f_measure}\")\n# B) Average precision\nfrom sklearn.metrics import average_precision_score\ny_true = [0, 1, 1, 0, 1, 1]   #binary prediction\ny_scores = [0.1, 0.4, 0.35, 0.8, 0.65, 0.9]   #model's estimation score\naverage_precision = average_precision_score(y_true, y_scores)",
+        "detail": "metriics_prac4",
+        "documentation": {}
+    },
+    {
+        "label": "y_true",
+        "kind": 5,
+        "importPath": "metriics_prac4",
+        "description": "metriics_prac4",
+        "peekOfCode": "y_true = [0, 1, 1, 0, 1, 1]   #binary prediction\ny_scores = [0.1, 0.4, 0.35, 0.8, 0.65, 0.9]   #model's estimation score\naverage_precision = average_precision_score(y_true, y_scores)\nprint(f'Average precision-recall score: {average_precision}')",
+        "detail": "metriics_prac4",
+        "documentation": {}
+    },
+    {
+        "label": "y_scores",
+        "kind": 5,
+        "importPath": "metriics_prac4",
+        "description": "metriics_prac4",
+        "peekOfCode": "y_scores = [0.1, 0.4, 0.35, 0.8, 0.65, 0.9]   #model's estimation score\naverage_precision = average_precision_score(y_true, y_scores)\nprint(f'Average precision-recall score: {average_precision}')",
+        "detail": "metriics_prac4",
+        "documentation": {}
+    },
+    {
+        "label": "average_precision",
+        "kind": 5,
+        "importPath": "metriics_prac4",
+        "description": "metriics_prac4",
+        "peekOfCode": "average_precision = average_precision_score(y_true, y_scores)\nprint(f'Average precision-recall score: {average_precision}')",
+        "detail": "metriics_prac4",
+        "documentation": {}
+    },
+    {
+        "label": "page_rank",
+        "kind": 2,
+        "importPath": "pagerank_prac8",
+        "description": "pagerank_prac8",
+        "peekOfCode": "def page_rank(graph, damping_factor=0.85, max_iterations=100, tolerance=1e-6):\n  num_nodes = len(graph)\n  page_ranks = np.ones(num_nodes) / num_nodes\n  for _ in range(max_iterations):\n    prev_page_ranks = np.copy(page_ranks)\n    for node in range(num_nodes):\n      incoming_links = [i for i, v in enumerate(graph) if node in v]\n      if not incoming_links:\n        continue\n      page_ranks[node] = (1 - damping_factor) / num_nodes + damping_factor * sum(prev_page_ranks[incoming_link] / len(graph[incoming_link]) for incoming_link in incoming_links)",
+        "detail": "pagerank_prac8",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "rank_prac9",
+        "description": "rank_prac9",
+        "peekOfCode": "X = np.array ([[1, 1], [1, 2], [1, 3], [1, 1], [1, 1], [1, 1], [1, 3], [1, 2]])\n# Person prefers: 1 > 2 > 3 (based on frequency)\n# Relevance scores based on frequency of watching\ny = np.array([\"High relevance\", \"Low relevance\",\"Irrelevant\", \"High relevance\", \"High relevance\", \"High relevance\", \"Irrelevant\",\"Low relevance\"])\n# Define the RanksM model\nmodel = svm.SVC(kernel='linear')\n# Perform cross validation (model accuracy)\nscores = model_selection.cross_val_score(model, X, y, cv=2)\n# Train the model\nmodel.fit (X, y)",
+        "detail": "rank_prac9",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "rank_prac9",
+        "description": "rank_prac9",
+        "peekOfCode": "y = np.array([\"High relevance\", \"Low relevance\",\"Irrelevant\", \"High relevance\", \"High relevance\", \"High relevance\", \"Irrelevant\",\"Low relevance\"])\n# Define the RanksM model\nmodel = svm.SVC(kernel='linear')\n# Perform cross validation (model accuracy)\nscores = model_selection.cross_val_score(model, X, y, cv=2)\n# Train the model\nmodel.fit (X, y)\n# You can Update the new_ data movie to [1, 1], [1, 2] or [1, 3]\nnew_data = np.array ([[1, 3], [1, 1], [1, 2]])\n# Person watches a 9th movie",
+        "detail": "rank_prac9",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "rank_prac9",
+        "description": "rank_prac9",
+        "peekOfCode": "model = svm.SVC(kernel='linear')\n# Perform cross validation (model accuracy)\nscores = model_selection.cross_val_score(model, X, y, cv=2)\n# Train the model\nmodel.fit (X, y)\n# You can Update the new_ data movie to [1, 1], [1, 2] or [1, 3]\nnew_data = np.array ([[1, 3], [1, 1], [1, 2]])\n# Person watches a 9th movie\npredictions = model.predict(new_data)\nprint (f'Cross-validation scores: {scores}')",
+        "detail": "rank_prac9",
+        "documentation": {}
+    },
+    {
+        "label": "scores",
+        "kind": 5,
+        "importPath": "rank_prac9",
+        "description": "rank_prac9",
+        "peekOfCode": "scores = model_selection.cross_val_score(model, X, y, cv=2)\n# Train the model\nmodel.fit (X, y)\n# You can Update the new_ data movie to [1, 1], [1, 2] or [1, 3]\nnew_data = np.array ([[1, 3], [1, 1], [1, 2]])\n# Person watches a 9th movie\npredictions = model.predict(new_data)\nprint (f'Cross-validation scores: {scores}')\nprint (f'New data: {new_data}')\nprint(f'Predictions for new data: {predictions}')",
+        "detail": "rank_prac9",
+        "documentation": {}
+    },
+    {
+        "label": "new_data",
+        "kind": 5,
+        "importPath": "rank_prac9",
+        "description": "rank_prac9",
+        "peekOfCode": "new_data = np.array ([[1, 3], [1, 1], [1, 2]])\n# Person watches a 9th movie\npredictions = model.predict(new_data)\nprint (f'Cross-validation scores: {scores}')\nprint (f'New data: {new_data}')\nprint(f'Predictions for new data: {predictions}')",
+        "detail": "rank_prac9",
+        "documentation": {}
+    },
+    {
+        "label": "predictions",
+        "kind": 5,
+        "importPath": "rank_prac9",
+        "description": "rank_prac9",
+        "peekOfCode": "predictions = model.predict(new_data)\nprint (f'Cross-validation scores: {scores}')\nprint (f'New data: {new_data}')\nprint(f'Predictions for new data: {predictions}')",
+        "detail": "rank_prac9",
+        "documentation": {}
+    },
+    {
+        "label": "edit_distance",
+        "kind": 2,
+        "importPath": "spellcorr_prac3",
+        "description": "spellcorr_prac3",
+        "peekOfCode": "def edit_distance(str1, str2):\n    m, n = len(str1), len(str2)\n    dp = [[0] * (n + 1) for _ in range(m + 1)]  # Create a dp table\n    # Base cases: If one string is empty, the edit distance is the length of the other\n    for i in range(m + 1):\n        dp[i][0] = i\n    for j in range(n + 1):\n        dp[0][j] = j\n    # Fill the DP table\n    for i in range(1, m + 1):",
+        "detail": "spellcorr_prac3",
+        "documentation": {}
+    },
+    {
+        "label": "editDistance",
+        "kind": 2,
+        "importPath": "spellcorr_prac3",
+        "description": "spellcorr_prac3",
+        "peekOfCode": "def editDistance(str1, str2, m, n):\n    if m == 0:\n        return n\n    if n == 0:\n        return m\n    if str1[m - 1] == str2[n - 1]:\n        return editDistance(str1, str2, m - 1, n - 1)\n    return 1 + min(editDistance(str1, str2, m, n - 1),\n                   editDistance(str1, str2, m - 1, n),\n                   editDistance(str1, str2, m - 1, n - 1))",
+        "detail": "spellcorr_prac3",
+        "documentation": {}
+    },
+    {
+        "label": "spell_correct",
+        "kind": 2,
+        "importPath": "spellcorr_prac3",
+        "description": "spellcorr_prac3",
+        "peekOfCode": "def spell_correct(word):\n    # Check if the word is in the dictionary\n    if word in dictionary:\n        return word\n    # If not in the dictionary, find the closest word based on edit distance\n    closest_word = min(dictionary, key=lambda x: edit_distance(word, x))\n    # If the closest word is within edit distance 1, return it as the corrected word\n    if edit_distance(word, closest_word) == 1:\n        return closest_word\n    # If no close match is found, return the original word",
+        "detail": "spellcorr_prac3",
+        "documentation": {}
+    },
+    {
+        "label": "process_query",
+        "kind": 2,
+        "importPath": "spellcorr_prac3",
+        "description": "spellcorr_prac3",
+        "peekOfCode": "def process_query(query):\n    # Split the query into individual words\n    words = query.split()\n    # Correct the spelling of each word in the query\n    corrected_words = [spell_correct(word) for word in words]\n    # Join the corrected words back into a single string\n    corrected_query = ' '.join(corrected_words)\n    return corrected_query\n# Example Usage\ndef main():",
+        "detail": "spellcorr_prac3",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "spellcorr_prac3",
+        "description": "spellcorr_prac3",
+        "peekOfCode": "def main():\n    # User query\n    query = \"serch enjine exampl\"\n    print(f\"Original Query: {query}\")\n    # Process the query and correct spelling\n    corrected_query = process_query(query)\n    # Print corrected query\n    print(\"Corrected Query:\", corrected_query)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "spellcorr_prac3",
+        "documentation": {}
+    },
+    {
+        "label": "str1",
+        "kind": 5,
+        "importPath": "spellcorr_prac3",
+        "description": "spellcorr_prac3",
+        "peekOfCode": "str1 = \"Sunday\"\nstr2 = \"Saturday\"\nmin_edit_distance = edit_distance(str1, str2)\nprint('Edit distance between \"{}\" and \"{}\" is: {}'.format(str1, str2, min_edit_distance))\ndef editDistance(str1, str2, m, n):\n    if m == 0:\n        return n\n    if n == 0:\n        return m\n    if str1[m - 1] == str2[n - 1]:",
+        "detail": "spellcorr_prac3",
+        "documentation": {}
+    },
+    {
+        "label": "str2",
+        "kind": 5,
+        "importPath": "spellcorr_prac3",
+        "description": "spellcorr_prac3",
+        "peekOfCode": "str2 = \"Saturday\"\nmin_edit_distance = edit_distance(str1, str2)\nprint('Edit distance between \"{}\" and \"{}\" is: {}'.format(str1, str2, min_edit_distance))\ndef editDistance(str1, str2, m, n):\n    if m == 0:\n        return n\n    if n == 0:\n        return m\n    if str1[m - 1] == str2[n - 1]:\n        return editDistance(str1, str2, m - 1, n - 1)",
+        "detail": "spellcorr_prac3",
+        "documentation": {}
+    },
+    {
+        "label": "min_edit_distance",
+        "kind": 5,
+        "importPath": "spellcorr_prac3",
+        "description": "spellcorr_prac3",
+        "peekOfCode": "min_edit_distance = edit_distance(str1, str2)\nprint('Edit distance between \"{}\" and \"{}\" is: {}'.format(str1, str2, min_edit_distance))\ndef editDistance(str1, str2, m, n):\n    if m == 0:\n        return n\n    if n == 0:\n        return m\n    if str1[m - 1] == str2[n - 1]:\n        return editDistance(str1, str2, m - 1, n - 1)\n    return 1 + min(editDistance(str1, str2, m, n - 1),",
+        "detail": "spellcorr_prac3",
+        "documentation": {}
+    },
+    {
+        "label": "str1",
+        "kind": 5,
+        "importPath": "spellcorr_prac3",
+        "description": "spellcorr_prac3",
+        "peekOfCode": "str1 = \"Sunday\"\nstr2 = \"Saturday\"\nmin_edit_distance = editDistance(str1, str2, len(str1), len(str2))\nprint('Edit distance between \"{}\" and \"{}\" is: {}'.format(str1, str2, min_edit_distance))\n# Dictionary of correctly spelled words\ndictionary = {\"search\", \"engine\", \"example\"}\n# Spelling correction function\ndef spell_correct(word):\n    # Check if the word is in the dictionary\n    if word in dictionary:",
+        "detail": "spellcorr_prac3",
+        "documentation": {}
+    },
+    {
+        "label": "str2",
+        "kind": 5,
+        "importPath": "spellcorr_prac3",
+        "description": "spellcorr_prac3",
+        "peekOfCode": "str2 = \"Saturday\"\nmin_edit_distance = editDistance(str1, str2, len(str1), len(str2))\nprint('Edit distance between \"{}\" and \"{}\" is: {}'.format(str1, str2, min_edit_distance))\n# Dictionary of correctly spelled words\ndictionary = {\"search\", \"engine\", \"example\"}\n# Spelling correction function\ndef spell_correct(word):\n    # Check if the word is in the dictionary\n    if word in dictionary:\n        return word",
+        "detail": "spellcorr_prac3",
+        "documentation": {}
+    },
+    {
+        "label": "min_edit_distance",
+        "kind": 5,
+        "importPath": "spellcorr_prac3",
+        "description": "spellcorr_prac3",
+        "peekOfCode": "min_edit_distance = editDistance(str1, str2, len(str1), len(str2))\nprint('Edit distance between \"{}\" and \"{}\" is: {}'.format(str1, str2, min_edit_distance))\n# Dictionary of correctly spelled words\ndictionary = {\"search\", \"engine\", \"example\"}\n# Spelling correction function\ndef spell_correct(word):\n    # Check if the word is in the dictionary\n    if word in dictionary:\n        return word\n    # If not in the dictionary, find the closest word based on edit distance",
+        "detail": "spellcorr_prac3",
+        "documentation": {}
+    },
+    {
+        "label": "dictionary",
+        "kind": 5,
+        "importPath": "spellcorr_prac3",
+        "description": "spellcorr_prac3",
+        "peekOfCode": "dictionary = {\"search\", \"engine\", \"example\"}\n# Spelling correction function\ndef spell_correct(word):\n    # Check if the word is in the dictionary\n    if word in dictionary:\n        return word\n    # If not in the dictionary, find the closest word based on edit distance\n    closest_word = min(dictionary, key=lambda x: edit_distance(word, x))\n    # If the closest word is within edit distance 1, return it as the corrected word\n    if edit_distance(word, closest_word) == 1:",
+        "detail": "spellcorr_prac3",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "textclass_prac5",
+        "description": "textclass_prac5",
+        "peekOfCode": "df = pd.read_csv(r\"IRPrac4Dataset.csv - Sheet1.csv\")\ndata = df[\"covid\"]+ \" \" +df[\"fever\"]\nx = data.astype(str)\ny = df['flu']\nx_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)\nvectorizer = CountVectorizer()\nx_train_counts = vectorizer.fit_transform(x_train)\nx_test_counts = vectorizer.transform(x_test)\nclassifier = MultinomialNB()\nclassifier.fit(x_train_counts, y_train)",
+        "detail": "textclass_prac5",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "textclass_prac5",
+        "description": "textclass_prac5",
+        "peekOfCode": "data = df[\"covid\"]+ \" \" +df[\"fever\"]\nx = data.astype(str)\ny = df['flu']\nx_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)\nvectorizer = CountVectorizer()\nx_train_counts = vectorizer.fit_transform(x_train)\nx_test_counts = vectorizer.transform(x_test)\nclassifier = MultinomialNB()\nclassifier.fit(x_train_counts, y_train)\ndata1 = pd.read_csv(r\"IRPrac4Dataset.csv - Sheet1.csv\")",
+        "detail": "textclass_prac5",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "textclass_prac5",
+        "description": "textclass_prac5",
+        "peekOfCode": "x = data.astype(str)\ny = df['flu']\nx_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)\nvectorizer = CountVectorizer()\nx_train_counts = vectorizer.fit_transform(x_train)\nx_test_counts = vectorizer.transform(x_test)\nclassifier = MultinomialNB()\nclassifier.fit(x_train_counts, y_train)\ndata1 = pd.read_csv(r\"IRPrac4Dataset.csv - Sheet1.csv\")\nnew_data=data1[\"covid\"] + \" \" + data1[\"fever\"]",
+        "detail": "textclass_prac5",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "textclass_prac5",
+        "description": "textclass_prac5",
+        "peekOfCode": "y = df['flu']\nx_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)\nvectorizer = CountVectorizer()\nx_train_counts = vectorizer.fit_transform(x_train)\nx_test_counts = vectorizer.transform(x_test)\nclassifier = MultinomialNB()\nclassifier.fit(x_train_counts, y_train)\ndata1 = pd.read_csv(r\"IRPrac4Dataset.csv - Sheet1.csv\")\nnew_data=data1[\"covid\"] + \" \" + data1[\"fever\"]\nnew_data_counts = vectorizer.transform(new_data.astype(str))",
+        "detail": "textclass_prac5",
+        "documentation": {}
+    },
+    {
+        "label": "vectorizer",
+        "kind": 5,
+        "importPath": "textclass_prac5",
+        "description": "textclass_prac5",
+        "peekOfCode": "vectorizer = CountVectorizer()\nx_train_counts = vectorizer.fit_transform(x_train)\nx_test_counts = vectorizer.transform(x_test)\nclassifier = MultinomialNB()\nclassifier.fit(x_train_counts, y_train)\ndata1 = pd.read_csv(r\"IRPrac4Dataset.csv - Sheet1.csv\")\nnew_data=data1[\"covid\"] + \" \" + data1[\"fever\"]\nnew_data_counts = vectorizer.transform(new_data.astype(str))\npredictions = classifier.predict(new_data_counts)\nnew_data = predictions",
+        "detail": "textclass_prac5",
+        "documentation": {}
+    },
+    {
+        "label": "x_train_counts",
+        "kind": 5,
+        "importPath": "textclass_prac5",
+        "description": "textclass_prac5",
+        "peekOfCode": "x_train_counts = vectorizer.fit_transform(x_train)\nx_test_counts = vectorizer.transform(x_test)\nclassifier = MultinomialNB()\nclassifier.fit(x_train_counts, y_train)\ndata1 = pd.read_csv(r\"IRPrac4Dataset.csv - Sheet1.csv\")\nnew_data=data1[\"covid\"] + \" \" + data1[\"fever\"]\nnew_data_counts = vectorizer.transform(new_data.astype(str))\npredictions = classifier.predict(new_data_counts)\nnew_data = predictions\nprint(new_data)",
+        "detail": "textclass_prac5",
+        "documentation": {}
+    },
+    {
+        "label": "x_test_counts",
+        "kind": 5,
+        "importPath": "textclass_prac5",
+        "description": "textclass_prac5",
+        "peekOfCode": "x_test_counts = vectorizer.transform(x_test)\nclassifier = MultinomialNB()\nclassifier.fit(x_train_counts, y_train)\ndata1 = pd.read_csv(r\"IRPrac4Dataset.csv - Sheet1.csv\")\nnew_data=data1[\"covid\"] + \" \" + data1[\"fever\"]\nnew_data_counts = vectorizer.transform(new_data.astype(str))\npredictions = classifier.predict(new_data_counts)\nnew_data = predictions\nprint(new_data)\naccuracy = accuracy_score(y_test, classifier.predict(x_test_counts))",
+        "detail": "textclass_prac5",
+        "documentation": {}
+    },
+    {
+        "label": "classifier",
+        "kind": 5,
+        "importPath": "textclass_prac5",
+        "description": "textclass_prac5",
+        "peekOfCode": "classifier = MultinomialNB()\nclassifier.fit(x_train_counts, y_train)\ndata1 = pd.read_csv(r\"IRPrac4Dataset.csv - Sheet1.csv\")\nnew_data=data1[\"covid\"] + \" \" + data1[\"fever\"]\nnew_data_counts = vectorizer.transform(new_data.astype(str))\npredictions = classifier.predict(new_data_counts)\nnew_data = predictions\nprint(new_data)\naccuracy = accuracy_score(y_test, classifier.predict(x_test_counts))\nprint(f\"\\nAccuracy: {accuracy:.2f}\")",
+        "detail": "textclass_prac5",
+        "documentation": {}
+    },
+    {
+        "label": "data1",
+        "kind": 5,
+        "importPath": "textclass_prac5",
+        "description": "textclass_prac5",
+        "peekOfCode": "data1 = pd.read_csv(r\"IRPrac4Dataset.csv - Sheet1.csv\")\nnew_data=data1[\"covid\"] + \" \" + data1[\"fever\"]\nnew_data_counts = vectorizer.transform(new_data.astype(str))\npredictions = classifier.predict(new_data_counts)\nnew_data = predictions\nprint(new_data)\naccuracy = accuracy_score(y_test, classifier.predict(x_test_counts))\nprint(f\"\\nAccuracy: {accuracy:.2f}\")\nprint(\"Classification Report: \")\nprint(classification_report(y_test, classifier.predict(x_test_counts)))",
+        "detail": "textclass_prac5",
+        "documentation": {}
+    },
+    {
+        "label": "new_data_counts",
+        "kind": 5,
+        "importPath": "textclass_prac5",
+        "description": "textclass_prac5",
+        "peekOfCode": "new_data_counts = vectorizer.transform(new_data.astype(str))\npredictions = classifier.predict(new_data_counts)\nnew_data = predictions\nprint(new_data)\naccuracy = accuracy_score(y_test, classifier.predict(x_test_counts))\nprint(f\"\\nAccuracy: {accuracy:.2f}\")\nprint(\"Classification Report: \")\nprint(classification_report(y_test, classifier.predict(x_test_counts)))",
+        "detail": "textclass_prac5",
+        "documentation": {}
+    },
+    {
+        "label": "predictions",
+        "kind": 5,
+        "importPath": "textclass_prac5",
+        "description": "textclass_prac5",
+        "peekOfCode": "predictions = classifier.predict(new_data_counts)\nnew_data = predictions\nprint(new_data)\naccuracy = accuracy_score(y_test, classifier.predict(x_test_counts))\nprint(f\"\\nAccuracy: {accuracy:.2f}\")\nprint(\"Classification Report: \")\nprint(classification_report(y_test, classifier.predict(x_test_counts)))",
+        "detail": "textclass_prac5",
+        "documentation": {}
+    },
+    {
+        "label": "new_data",
+        "kind": 5,
+        "importPath": "textclass_prac5",
+        "description": "textclass_prac5",
+        "peekOfCode": "new_data = predictions\nprint(new_data)\naccuracy = accuracy_score(y_test, classifier.predict(x_test_counts))\nprint(f\"\\nAccuracy: {accuracy:.2f}\")\nprint(\"Classification Report: \")\nprint(classification_report(y_test, classifier.predict(x_test_counts)))",
+        "detail": "textclass_prac5",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy",
+        "kind": 5,
+        "importPath": "textclass_prac5",
+        "description": "textclass_prac5",
+        "peekOfCode": "accuracy = accuracy_score(y_test, classifier.predict(x_test_counts))\nprint(f\"\\nAccuracy: {accuracy:.2f}\")\nprint(\"Classification Report: \")\nprint(classification_report(y_test, classifier.predict(x_test_counts)))",
+        "detail": "textclass_prac5",
+        "documentation": {}
+    },
+    {
+        "label": "extractive_summarization_and_qa",
+        "kind": 2,
+        "importPath": "textsummar_prac10",
+        "description": "textsummar_prac10",
+        "peekOfCode": "def extractive_summarization_and_qa(text,question=None,num_sentences=3):\n    def extractive_summarization(text,num_sentences):\n        sentences = nltk.sent_tokenize(text)\n        tfidf_vectorizer =TfidfVectorizer()\n        tfidf_matrix = tfidf_vectorizer.fit_transform(sentences)\n        similarity_matrix = cosine_similarity(tfidf_matrix,tfidf_matrix)\n        scores = similarity_matrix.sum(axis=1)\n        ranked_sentences_indices = scores.argsort()[-num_sentences][::-1]\n        summary = [sentences[i] for i in sorted(ranked_sentences_indices)]\n        return ' '.join(summary)",
+        "detail": "textsummar_prac10",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "textsummar_prac10",
+        "description": "textsummar_prac10",
+        "peekOfCode": "text = \"Scientists recently discovered a new species of butterfly in the Amazon rainforest. The butterfly, named Morpho amadeus, has vibrant blue wings with intricate patterns. Researchers believe that its discovery sheds light on the biodiversity of the region and underscores the importance of conservation efforts in preserving fragile ecosystems like the Amazon.\"\n#question = 'What was recently discovered in the Amazon Rainforest?'\nquestion = 'What is the name of butterfly that has vibrant blue wings?'\nresult = extractive_summarization_and_qa(text,question)\nprint(result)",
+        "detail": "textsummar_prac10",
+        "documentation": {}
+    },
+    {
+        "label": "#question",
+        "kind": 5,
+        "importPath": "textsummar_prac10",
+        "description": "textsummar_prac10",
+        "peekOfCode": "#question = 'What was recently discovered in the Amazon Rainforest?'\nquestion = 'What is the name of butterfly that has vibrant blue wings?'\nresult = extractive_summarization_and_qa(text,question)\nprint(result)",
+        "detail": "textsummar_prac10",
+        "documentation": {}
+    },
+    {
+        "label": "question",
+        "kind": 5,
+        "importPath": "textsummar_prac10",
+        "description": "textsummar_prac10",
+        "peekOfCode": "question = 'What is the name of butterfly that has vibrant blue wings?'\nresult = extractive_summarization_and_qa(text,question)\nprint(result)",
+        "detail": "textsummar_prac10",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "textsummar_prac10",
+        "description": "textsummar_prac10",
+        "peekOfCode": "result = extractive_summarization_and_qa(text,question)\nprint(result)",
+        "detail": "textsummar_prac10",
+        "documentation": {}
+    },
+    {
+        "label": "get_html",
+        "kind": 2,
+        "importPath": "webcrawler_prac7",
+        "description": "webcrawler_prac7",
+        "peekOfCode": "def get_html(url):\n    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}\n    try:\n        response = requests.get(url, headers=headers)\n        response.raise_for_status()\n        return response.text\n    except requests.exceptions.HTTPError as errh:\n        print(f'HTTP Error: {errh}')\n    except requests.exceptions.RequestException as err:\n        print(f'Request Error: {err}')",
+        "detail": "webcrawler_prac7",
+        "documentation": {}
+    },
+    {
+        "label": "save_robots_txt",
+        "kind": 2,
+        "importPath": "webcrawler_prac7",
+        "description": "webcrawler_prac7",
+        "peekOfCode": "def save_robots_txt(url):\n    try:\n        robots_url = urljoin(url, '/robots.txt')\n        robots_content = get_html(robots_url)\n        if robots_content:\n            with open('robots.txt', 'wb') as file:\n                file.write(robots_content.encode('utf-8-sig'))\n    except Exception as e:\n        print(f'Error saving robots.txt: {e}')\ndef load_robots_txt():",
+        "detail": "webcrawler_prac7",
+        "documentation": {}
+    },
+    {
+        "label": "load_robots_txt",
+        "kind": 2,
+        "importPath": "webcrawler_prac7",
+        "description": "webcrawler_prac7",
+        "peekOfCode": "def load_robots_txt():\n    try:\n        with open('robots.txt', 'rb') as file:\n            return file.read().decode('utf-8-sig')\n    except FileNotFoundError:\n        return None\ndef extract_links(html, base_url):\n    soup = BeautifulSoup(html, 'html.parser')\n    links = []\n    for link in soup.find_all('a', href=True):",
+        "detail": "webcrawler_prac7",
+        "documentation": {}
+    },
+    {
+        "label": "extract_links",
+        "kind": 2,
+        "importPath": "webcrawler_prac7",
+        "description": "webcrawler_prac7",
+        "peekOfCode": "def extract_links(html, base_url):\n    soup = BeautifulSoup(html, 'html.parser')\n    links = []\n    for link in soup.find_all('a', href=True):\n        absolute_url = urljoin(base_url, link['href'])\n        links.append(absolute_url)\n    return links\ndef is_allowed_by_robots(url, robots_content):\n    parser = RobotFileParser()\n    parser.parse(robots_content.split('\\n'))",
+        "detail": "webcrawler_prac7",
+        "documentation": {}
+    },
+    {
+        "label": "is_allowed_by_robots",
+        "kind": 2,
+        "importPath": "webcrawler_prac7",
+        "description": "webcrawler_prac7",
+        "peekOfCode": "def is_allowed_by_robots(url, robots_content):\n    parser = RobotFileParser()\n    parser.parse(robots_content.split('\\n'))\n    return parser.can_fetch('*', url)\ndef crawl(start_url, max_depth=3, delay=1):\n    visited_urls = set()\n    save_robots_txt(start_url)\n    robots_content = load_robots_txt()\n    if not robots_content:\n        print('Unable to retrieve robots.txt. Crawling without restrictions')",
+        "detail": "webcrawler_prac7",
+        "documentation": {}
+    },
+    {
+        "label": "crawl",
+        "kind": 2,
+        "importPath": "webcrawler_prac7",
+        "description": "webcrawler_prac7",
+        "peekOfCode": "def crawl(start_url, max_depth=3, delay=1):\n    visited_urls = set()\n    save_robots_txt(start_url)\n    robots_content = load_robots_txt()\n    if not robots_content:\n        print('Unable to retrieve robots.txt. Crawling without restrictions')\n    recursive_crawl(start_url, 1, robots_content, max_depth, visited_urls)\ndef recursive_crawl(url, depth, robots_content, max_depth, visited_urls):\n    if depth > max_depth or url in visited_urls or not is_allowed_by_robots(url, robots_content):\n        return",
+        "detail": "webcrawler_prac7",
+        "documentation": {}
+    },
+    {
+        "label": "recursive_crawl",
+        "kind": 2,
+        "importPath": "webcrawler_prac7",
+        "description": "webcrawler_prac7",
+        "peekOfCode": "def recursive_crawl(url, depth, robots_content, max_depth, visited_urls):\n    if depth > max_depth or url in visited_urls or not is_allowed_by_robots(url, robots_content):\n        return\n    visited_urls.add(url)\n    html = get_html(url)\n    if html:\n        print(f\"Crawling {url}\")\n        links = extract_links(html, url)\n        for link in links:\n            recursive_crawl(link, depth + 1, robots_content, max_depth, visited_urls)",
+        "detail": "webcrawler_prac7",
+        "documentation": {}
+    }
+]
